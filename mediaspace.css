@@ -1,0 +1,20 @@
+
+#mediaspace-search-form fieldset {
+  border: 1px solid #222;
+  clear: left;
+}
+
+#mediaspace-search-form fieldset.mediaspace-search .form-item {
+  width: 170px;
+  padding: 0 1em;
+  float: left;
+}
+
+#mediaspace-search-form fieldset.mediaspace-search .form-submit {
+  float: left;
+  margin: 25px 0 0 10px;
+}
+
+#mediaspace-select-form  table {
+  border: 1px solid #222;
+}

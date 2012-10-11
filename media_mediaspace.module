@@ -1,0 +1,24 @@
+<?php
+
+/**
+ *  @file
+ *  Embedded Video Field provider file for Kaltura MediaSpace
+ *  Author:  Paul Lieberman - Central Web Services - Oregon State University
+ *  Created: 2011-11-13
+ *
+ *  Video provider based on emfield example.
+ *  Other code uses custom API built on top of Kaltura client.
+ */
+
+
+/**
+ * Implementation of hook_emfield_provider
+ *
+ * Register our module as a video provider.
+ */
+function media_mediaspace_emfield_providers($module, $provider = NULL) {
+  if ($module == 'emvideo') {
+    return drupal_system_listing("$provider\.inc$", drupal_get_path('module', 'media_mediaspace') ."/providers", 'name', 0);
+  }
+}
+?>

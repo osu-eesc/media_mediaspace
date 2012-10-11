@@ -1,0 +1,9 @@
+name = Media: MediaSpace
+description = Embedded Video Field provider file for MediaSpace.
+core = 6.x
+dependencies[] = emvideo
+package = Media
+version = "6.x-0.2"
+core = "6.x"
+project = "media_mediaspace"
+
